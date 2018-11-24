@@ -1,13 +1,25 @@
 var subtitles = {
-    T_: {
+    T_172838_flugtkongen: {
 		lang: "en",
 		name: "English",
         tracks: [
-			//from		To			Text
-			T(1.5, 5.5, "Over halvdelen af de 13-16-årige synes, det er flovt at bade sammen"),
-			T(8.5, 12, "Kun 1 ud af 3 gymnasieelever bader efter idrætsundervisningen"),
-			T(14.5, 19.5, "Både forskere, lærere og forældre er bekymrede for de unges<br /> syn på deres egen krop"),
-			T(19.8, 22, "Men hvordan ændrer man kropsopfattelsen for en hel generation?")
+		//from		To			Text
+			T(TTime("00:00:18:00"), TTime("00:00:21:15"), "HOUDINI-flugten fra Horsens Statsfængsel"),
+			T(TTime("00:03:48:15"), TTime("00:03:50:30"), "Filmen er optaget af Rigspolitiet,<br />teknisk afdeling for Midtjylland 1949."),
+			T(TTime("00:03:50:30"), TTime("00:03:54:15"), "Filmen er optaget dagen efter Lorentzens flugt.<br/>Ved rekonstruktionen medvirker fængselsbetjent Bruno Larsen."),
+			T(TTime("00:03:54:15"), TTime("00:03:56:15"), "Redigeret og genfortalt af DR Historie."),
+			T(TTime("00:03:56:15"), TTime("00:03:58:15"), "dr DK")
+        ]
+    },
+	
+	 T_172838_paa_hjul_i_skoven: {
+		lang: "en",
+		name: "English",
+        tracks: [
+		//from		To			Text
+			T(TTime("00:00:06:00"), TTime("00:00:07:15"), "Mid Zealand Production"),
+			T(TTime("00:00:11:00"), TTime("00:00:17:00"), "SRAM LIGA"),
+			T(TTime("00:00:19:15"), TTime("00:00:23:30"), "NØRRESKOVEN VEJLE")
 			
         ]
     }
